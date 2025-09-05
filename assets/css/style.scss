@@ -131,3 +131,10 @@ body {
   background-color: #ffffff;
   z-index: -3;
 }
+.iframe-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  aspect-ratio: 5 / 3;
+}
