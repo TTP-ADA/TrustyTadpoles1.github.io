@@ -4,11 +4,11 @@ layout: default
 
 [Link to another page](./another-page.html).
 
-Two friends and one mission. Build a secure cardano stake pool with high uptime and security, without ever touching the cloud.
+Two friends and one mission. Build a secure cardano stake pool with high uptime and security, without ever touching the cloud. This drastically reduces our operating costs, contributes to decentralization of the cardano blockchain, and ensures we are in this for the long-haul!
 
-_Everything is locally hosted and operated on bare metal. 32 GB of RAM and 12 processor cores dedicated to each instance_
+_Everything is locally hosted and operated on bare metal. 32 GB of RAM and 12 processor cores dedicated to each node, which means we are over-built beyond current specifications and will scale with future network upgrades._
 
-**We are the Trusty Tadpoles**
+**We are the Trusty Tadpoles!**
 
 # Our Pool Stats
 
