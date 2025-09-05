@@ -2,3 +2,25 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+/* --- Custom overrides for header --- */
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* keeps title centered */
+  gap: 1rem; /* space between logos and text */
+}
+
+.header-logo {
+  height: 50px; /* tweak to your liking */
+  width: auto;
+}
+
+.header-logo.left {
+  margin-right: auto; /* push logo1 to the far left */
+}
+
+.header-logo.right {
+  margin-left: auto; /* push logo2 to the far right */
+}
