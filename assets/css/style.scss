@@ -60,15 +60,14 @@
   }
 
   /* Center text properly */
-  .header-content {
-    position: relative;        /* allow normal flow for better centering */
-    top: auto;
-    left: auto;
-    transform: none;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 1rem;
-  }
+/* Center text block */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
   .header-content h1,
   .header-content h2 {
@@ -98,16 +97,14 @@
     height: 10vw;
   }
 
-  /* Center text */
-  .header-content {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 0.5rem;
-  }
+/* Center text block */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
   .header-content h1,
   .header-content h2 {
