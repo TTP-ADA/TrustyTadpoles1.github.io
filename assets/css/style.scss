@@ -5,24 +5,23 @@
 
 /* --- Custom overrides for header --- */
 
-.page-header {
-  position: relative; /* allows absolute positioning inside */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* keeps title centered */
+  gap: 1rem; /* space between logos and text */
 }
 
 .header-logo {
-  position: absolute;
-  top: 50%;              /* center vertically */
-  transform: translateY(-50%); /* adjust for natural image height */
-  height: auto;
+  height: 75px; /* tweak to your liking */
   width: auto;
-  max-height: 300px;     /* safety cap if needed */
-  scale: 5;              /* 500% bigger */
+  scale: 5;
 }
 
 .header-logo.left {
-  left: 25%;             /* place at 25% of the header width */
+  margin-right: auto; /* push logo1 to the far left */
 }
 
 .header-logo.right {
-  left: 75%;             /* place at 75% of the header width */
+  margin-left: auto; /* push logo2 to the far right */
 }
