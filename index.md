@@ -2,13 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+Two friends and one mission. Build a secure cardano stake pool with high uptime and security, without ever touching the cloud.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+_Everything is locally hosted and operated on bare metal. 32 GB of RAM and 12 processor cores dedicated to each instance_
+
+**We are the Trusty Tadpoles**
 
 # Our Pool Stats
 
