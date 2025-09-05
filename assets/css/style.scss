@@ -122,5 +122,8 @@
   left: 0;
   z-index: -1;          /* behind all content */
   pointer-events: none; /* allows clicking through particles */
+}
+body {
   background-color: #ffffff;
+  z-index: -3;
 }
