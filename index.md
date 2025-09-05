@@ -12,7 +12,7 @@ _We're here for stability, security, and the community._
 
 **We are the Trusty Tadpoles - small, resilient, and ready to grow with Cardano!**
 
-**# Our Pool Stats**
+# Our Pool Stats
 
 Stay up-to-date with our live pool metrics:
 <div class="iframe-container">
@@ -20,7 +20,7 @@ Stay up-to-date with our live pool metrics:
   </iframe>
 </div>
 
-**# How to Stake with Us**
+# How to Stake with Us
 
 1.  Use your browser or hardware wallet (Eternl, Lace, Daedalus, Yoroi, etc.)
 2.  Got to the **Staking** or **Delegation** tab
