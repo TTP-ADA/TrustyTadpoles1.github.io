@@ -10,6 +10,12 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+# Our Pool Stats
+
+Stay up-to-date with our live pool metrics:
+
+<iframe width="500" height="320" frameborder="0" src="https://img.cexplorer.io/w/widget.html?pool=pool1r76pjed6q8k9y8lngcedqhv52zqzc2gczwzqc93x6kwq73xprtr&theme=dark"><a href="https://cexplorer.io/pool/pool1r76pjed6q8k9y8lngcedqhv52zqzc2gczwzqc93x6kwq73xprtr">pool detail on cexplorer.io</a></iframe>
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
