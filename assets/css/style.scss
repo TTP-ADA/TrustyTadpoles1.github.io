@@ -66,7 +66,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   text-align: center;
 }
 
@@ -80,6 +80,7 @@
 @media (max-width: 480px) {
   .page-header {
     height: 150px;         /* smaller header on vertical phones */
+    width: 100%
     padding: 1rem 0;
   }
 
@@ -87,7 +88,7 @@
   .header-logo.left {
     left: 15%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     height: 10vw;
   }
 
