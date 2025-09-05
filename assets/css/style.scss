@@ -47,17 +47,17 @@
 
   /* Logos remain absolute, no size change */
   .header-logo.left {
-    left: 15%;                 /* slightly closer to edge if needed */
+    left: 10%;                 /* slightly closer to edge if needed */
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 10vw;
+    height: 12vw;
   }
 
   .header-logo.right {
-    left: 85%;                 /* slightly closer to edge if needed */
+    left: 90%;                 /* slightly closer to edge if needed */
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 10vw;
+    height: 13vw;
   }
 
   /* Center text properly */
@@ -66,7 +66,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -33%);
   text-align: center;
 }
 
@@ -86,17 +86,17 @@
 
   /* Logos stay absolute at fixed size/offsets */
   .header-logo.left {
-    left: 15%;
+    left: 10%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 10vw;
+    height: 12vw;
   }
 
   .header-logo.right {
-    left: 85%;
+    left: 90%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 10vw;
+    height: 13vw;
   }
 
 /* Center text block */
@@ -104,7 +104,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -33%);
   text-align: center;
 }
 
