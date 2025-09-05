@@ -13,8 +13,8 @@
 }
 
 .header-logo {
-  height: 250px; /* tweak to your liking */
-  width: auto;
+  height: 125px; /* tweak to your liking */
+  width: 50%;
 }
 
 .header-logo.left {
@@ -22,5 +22,5 @@
 }
 
 .header-logo.right {
-  margin-left: auto; /* push logo2 to the far right */
+  margin-left: 75%; /* push logo2 to the far right */
 }
