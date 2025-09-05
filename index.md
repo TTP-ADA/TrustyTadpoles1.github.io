@@ -2,13 +2,13 @@
 layout: default
 ---
 
-Two friends, **one mission:** Build a secure, reliable cardano stake pool.
+Two friends, **one mission:** _Build a secure, reliable cardano stake pool_
 
 We operate entirely on **locally hosted bare-metal servers** - never in the cloud. This approach lowers costs, strengthens decentralization, and shows our commitment to Cardano's long-term vision.
 
 Each node is powered by **32 GB of RAM and 12 CPU cores**, far exceeding current requirements and ready to scale with future network upgrades.
 
-We're here for stability, security, and the community.
+_We're here for stability, security, and the community._
 
 **We are the Trusty Tadpoles - small, resilient, and ready to grow with Cardano!**
 
