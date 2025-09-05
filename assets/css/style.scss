@@ -40,7 +40,7 @@
 /* --- Tablet: max-width 768px --- */
 @media (max-width: 768px) {
   .page-header {
-    min-height: 100px;        /* keep header tall enough for logos */
+    height: auto;        /* keep header tall enough for logos */
     padding: 1rem 0;
   }
 
@@ -78,7 +78,7 @@
 /* --- Mobile: max-width 480px --- */
 @media (max-width: 480px) {
   .page-header {
-    min-height: 100px;         /* smaller header on vertical phones */
+    height: auto;         /* smaller header on vertical phones */
     padding: 1rem 0;
   }
 
