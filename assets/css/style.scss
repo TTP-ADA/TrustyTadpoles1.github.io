@@ -25,6 +25,8 @@
 
 .header-logo.right {
   left: 80%;
+  height: 20vw;
+  max-height: 400px;
 }
 
 /* Center text block */
@@ -39,20 +41,20 @@
 /* Responsive tweaks for tablets and phones */
 @media (max-width: 768px) {
   .page-header {
-    height: 50vw;
+    height: 45vw;
     padding: 1rem 0;
   }
 
   .header-logo {
-    height: 12vw;          /* smaller logos on smaller screens */
+    height: 15vw;          /* smaller logos on smaller screens */
   }
 
   .header-logo.left {
-    left: 20%;
+    left: 10%;
   }
 
   .header-logo.right {
-    left: 80%;
+    left: 90%;
   }
 
   .header-content h1,
