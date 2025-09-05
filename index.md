@@ -20,6 +20,22 @@ Stay up-to-date with our live pool metrics:
   </iframe>
 </div>
 
+# How to Stake with Us
+
+1.  Use your browser or hardware wallet (Eternl, Lace, Daedalus, Yoroi, etc.)
+2.  Got to the **Staking** or **Delegation** tab
+3.  Search our pool by ticker: **TTP** (Trusty Tadpoles Pool)
+4.  Select our pool and confirm delegation
+5.  Start earning ADA!
+
+**Important:**
+
+*   You never send ADA directly to a pool - delegation is done inside your wallet
+*   Your ADA always stays in your wallet, and you can spend or transfer at any time (liquid staking)
+*   Never share your seed phrase, recovery phrase, or private keys with anyone. No legitimate stake pool will ever ask you for this information
+
+Staking with Trusty Tadpoles **(TTP)** helps support decentralization, keeps the cardano network strong, and as we grow the rewards for participating will increase!
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
