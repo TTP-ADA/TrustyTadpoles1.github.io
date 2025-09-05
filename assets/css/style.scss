@@ -40,21 +40,23 @@
 /* --- Tablet: max-width 768px --- */
 @media (max-width: 768px) {
   .page-header {
-    min-height: 300px;        /* keep header tall enough for logos */
+    min-height: 100px;        /* keep header tall enough for logos */
     padding: 1rem 0;
   }
 
   /* Logos remain absolute, no size change */
   .header-logo.left {
-    left: 20%;                 /* slightly closer to edge if needed */
+    left: 15%;                 /* slightly closer to edge if needed */
     top: 50%;
     transform: translate(-50%, -50%);
+    height: 10vw;
   }
 
   .header-logo.right {
-    left: 80%;                 /* slightly closer to edge if needed */
+    left: 85%;                 /* slightly closer to edge if needed */
     top: 50%;
     transform: translate(-50%, -50%);
+    height: 10vw;
   }
 
   /* Center text properly */
@@ -83,15 +85,17 @@
 
   /* Logos stay absolute at fixed size/offsets */
   .header-logo.left {
-    left: 25%;
+    left: 15%;
     top: 50%;
     transform: translate(-50%, -50%);
+    height: 10vw;
   }
 
   .header-logo.right {
-    left: 75%;
+    left: 85%;
     top: 50%;
     transform: translate(-50%, -50%);
+    height: 10vw;
   }
 
   /* Center text */
