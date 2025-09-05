@@ -2,13 +2,15 @@
 layout: default
 ---
 
-[Link to another page](./another-page.html).
+Two friends, **one mission:** Build a secure, reliable cardano stake pool.
 
-Two friends and one mission. Build a secure cardano stake pool with high uptime and security, without ever touching the cloud. This drastically reduces our operating costs, contributes to decentralization of the cardano blockchain, and ensures we are in this for the long-haul!
+We operate entirely on **locally hosted bare-metal servers** - never in the cloud. This approach lowers costs, strengthens decentralization, and shows our commitment to Cardano's long-term vision.
 
-_Everything is locally hosted and operated on bare metal. 32 GB of RAM and 12 processor cores dedicated to each node, which means we are over-built beyond current specifications and will scale with future network upgrades._
+Each node is powered by **32 GB of RAM and 12 CPU cores**, far exceeding current requirements and ready to scale with future network upgrades.
 
-**We are the Trusty Tadpoles!**
+We're here for stability, security, and the community.
+
+**We are the Trusty Tadpoles - small, resilient, and ready to grow with Cardano!**
 
 # Our Pool Stats
 
@@ -44,6 +46,8 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
+
+[Link to another page](./another-page.html).
 
 #### Header 4
 
