@@ -3,24 +3,79 @@
 
 @import 'jekyll-theme-cayman';
 
-/* --- Custom overrides for header --- */
-
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* keeps title centered */
-  gap: 1rem; /* space between logos and text */
+/* --- Custom header logos --- */
+.page-header {
+  position: relative;
+  height: 200px; /* desktop height */
 }
 
+/* Logos positioning */
 .header-logo {
-  height: 50px; /* tweak to your liking */
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: auto;
+  height: 20vw;           /* scales with viewport width */
+  max-height: 250px;      /* caps growth on large screens */
 }
 
 .header-logo.left {
-  margin-right: auto; /* push logo1 to the far left */
+  left: 25%;
 }
 
 .header-logo.right {
-  margin-left: auto; /* push logo2 to the far right */
+  left: 75%;
+}
+
+/* Center text block */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Responsive tweaks for tablets and phones */
+@media (max-width: 768px) {
+  .page-header {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .header-logo {
+    height: 12vw;          /* smaller logos on smaller screens */
+  }
+
+  .header-logo.left {
+    left: 20%;
+  }
+
+  .header-logo.right {
+    left: 80%;
+  }
+
+  .header-content h1,
+  .header-content h2 {
+    font-size: 1.5rem;     /* scale text down */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo {
+    height: 10vw;
+  }
+
+  .header-logo.left {
+    left: 15%;
+  }
+
+  .header-logo.right {
+    left: 85%;
+  }
+
+  .header-content h1,
+  .header-content h2 {
+    font-size: 1.2rem;
+  }
 }
