@@ -47,17 +47,17 @@
 
   /* Logos remain absolute, no size change */
   .header-logo.left {
-    left: 10%;                 /* slightly closer to edge if needed */
+    left: 15%;                 /* slightly closer to edge if needed */
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 12vw;
+    height: 15vw;
   }
 
   .header-logo.right {
-    left: 90%;                 /* slightly closer to edge if needed */
+    left: 85%;                 /* slightly closer to edge if needed */
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 13vw;
+    height: 16vw;
   }
 
   /* Center text properly */
@@ -86,17 +86,17 @@
 
   /* Logos stay absolute at fixed size/offsets */
   .header-logo.left {
-    left: 10%;
+    left: 15%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 12vw;
+    height: 15vw;
   }
 
   .header-logo.right {
-    left: 90%;
+    left: 85%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 13vw;
+    height: 16vw;
   }
 
 /* Center text block */
