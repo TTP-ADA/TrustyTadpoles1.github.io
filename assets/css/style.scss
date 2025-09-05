@@ -25,7 +25,7 @@
 
 .header-logo.right {
   left: 80%;
-  height: 18vw;
+  height: 17vw;
   max-height: 400px;
 }
 
@@ -45,9 +45,14 @@
     padding: 1rem 0;
   }
 
-  .header-logo {
-    height: 13vw;          /* smaller logos on smaller screens */
-  }
+.header-logo {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 13vw;           /* scales with viewport width */
+  max-height: 250px;      /* caps growth on large screens */
+}
 
   .header-logo.left {
     left: 7%;
