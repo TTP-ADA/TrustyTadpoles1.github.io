@@ -12,26 +12,37 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
+
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
+    <!-- Particles background container -->
+    <div id="tsparticles"></div>
+
     <!-- Header with responsive logos -->
     <header class="page-header" role="banner">
+
       <!-- Left logo -->
-      <img src="{{ '/assests/images/cardano-white.png' | relative_url }}" 
-           alt="Cardano Logo"
-           class="header-logo left">
-      
+      <img 
+        src="{{ '/assets/images/cardano-white.png' | relative_url }}" 
+        alt="Cardano Logo"
+        class="header-logo left">
+
       <!-- Center text -->
       <div class="header-content">
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <h1 class="project-name">
+          {{ page.title | default: site.title | default: site.github.repository_name }}
+        </h1>
+        <h2 class="project-tagline">
+          {{ page.description | default: site.description | default: site.github.project_tagline }}
+        </h2>
       </div>
 
       <!-- Right logo -->
-      <img src="{{ '/assests/images/TTP-logo1.png' | relative_url }}" 
-           alt="My Pool Logo"
-           class="header-logo right">
+      <img 
+        src="{{ '/assets/images/TTP-logo1.png' | relative_url }}" 
+        alt="My Pool Logo"
+        class="header-logo right">
 
     </header>
 
@@ -51,6 +62,12 @@
         </span>
       </footer>
     </main>
+
+    <!-- tsparticles CDN (Step 1) -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="{{ '/assets/js/particles-init.js' | relative_url }}"></script>
+
   </body>
 </html>
+
 
