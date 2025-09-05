@@ -38,51 +38,75 @@
   text-align: center;
 }
 
-/* Responsive tweaks for tablets and phones */
+/* --- Tablet: max-width 768px --- */
 @media (max-width: 768px) {
   .page-header {
-    height: 40vw;
+    min-height: 250px;          /* taller than auto so header looks good */
     padding: 1rem 0;
   }
 
-.header-logo {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: 13vw;           /* scales with viewport width */
-  max-height: 250px;      /* caps growth on large screens */
-}
-
-  .header-logo.left {
-    left: 7%;
-  }
-
-  .header-logo.right {
-    left: 93%;
-  }
-
-  .header-content h1,
-  .header-content h2 {
-    font-size: 1.5rem;     /* scale text down */
-  }
-}
-
-@media (max-width: 480px) {
+  /* Logos */
   .header-logo {
-    height: 12vw;
+    height: 15vw;               /* smaller than desktop */
   }
-
   .header-logo.left {
-    left: 15%;
+    left: 20%;                  /* slightly closer to edge */
+  }
+  .header-logo.right {
+    left: 80%;                  /* slightly closer to edge */
+    transform: translate(-40%, -45%); /* keep slight offset for balance */
   }
 
-  .header-logo.right {
-    left: 85%;
+  /* Center text */
+  .header-content {
+    position: relative;          /* allow normal flow */
+    top: auto;
+    left: auto;
+    transform: none;             /* remove absolute centering */
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
   }
 
   .header-content h1,
   .header-content h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;           /* scale down text */
+  }
+}
+
+/* --- Mobile: max-width 480px --- */
+@media (max-width: 480px) {
+  .page-header {
+    min-height: 200px;
+    padding: 1rem 0;
+  }
+
+  /* Logos stacked above/below text */
+  .header-logo {
+    position: relative;          /* move logos into normal flow */
+    display: block;
+    margin: 0 auto 0.5rem;      /* spacing between logo and text */
+    height: 12vw;               /* smaller logos */
+    transform: none;
+    left: auto;
+    top: auto;
+  }
+
+  /* Right logo may remain slightly bigger if desired */
+  .header-logo.right {
+    height: 13vw;
+  }
+
+  /* Center text */
+  .header-content {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+  .header-content h1,
+  .header-content h2 {
+    font-size: 1.2rem;           /* smaller text for phones */
   }
 }
