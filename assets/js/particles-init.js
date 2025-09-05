@@ -1,6 +1,6 @@
 tsParticles.load("tsparticles", {
   background: {
-    color: { value: "#00000000" } // fully transparent background
+    color: { value: "#ffffff" } // fully transparent background
   },
   fpsLimit: 60, // limits frames per second
   particles: {
