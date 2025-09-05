@@ -35,12 +35,3 @@ Stay up-to-date with our live pool metrics:
 *   Never share your seed phrase, recovery phrase, or private keys with anyone. No legitimate stake pool will ever ask you for this information
 
 Staking with Trusty Tadpoles **(TTP)** helps support decentralization, keeps the cardano network strong, and as we grow the rewards for participating will increase!
-
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
