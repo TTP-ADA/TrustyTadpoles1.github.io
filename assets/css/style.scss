@@ -37,31 +37,32 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 /* --- Tablet: max-width 768px --- */
 @media (max-width: 768px) {
   .page-header {
-    min-height: 250px;          /* taller than auto so header looks good */
+    min-height: 300px;        /* keep header tall enough for logos */
     padding: 1rem 0;
   }
 
-  /* Logos */
-  .header-logo {
-    height: 15vw;               /* smaller than desktop */
-  }
+  /* Logos remain absolute, no size change */
   .header-logo.left {
-    left: 20%;                  /* slightly closer to edge */
-  }
-  .header-logo.right {
-    left: 80%;                  /* slightly closer to edge */
+    left: 20%;                 /* slightly closer to edge if needed */
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  /* Center text */
+  .header-logo.right {
+    left: 80%;                 /* slightly closer to edge if needed */
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Center text properly */
   .header-content {
-    position: relative;          /* allow normal flow */
+    position: relative;        /* allow normal flow for better centering */
     top: auto;
     left: auto;
-    transform: none;             /* remove absolute centering */
+    transform: none;
     text-align: center;
     margin: 0 auto;
     padding-top: 1rem;
@@ -69,43 +70,43 @@
 
   .header-content h1,
   .header-content h2 {
-    font-size: 1.5rem;           /* scale down text */
+    font-size: 1.5rem;         /* scale text slightly */
   }
 }
 
 /* --- Mobile: max-width 480px --- */
 @media (max-width: 480px) {
   .page-header {
-    min-height: 200px;
+    min-height: 200px;         /* smaller header on vertical phones */
     padding: 1rem 0;
   }
 
-  /* Logos stacked above/below text */
-  .header-logo {
-    position: relative;          /* move logos into normal flow */
-    display: block;
-    margin: 0 auto 0.5rem;      /* spacing between logo and text */
-    height: 12vw;               /* smaller logos */
-    transform: none;
-    left: auto;
-    top: auto;
+  /* Logos stay absolute at fixed size/offsets */
+  .header-logo.left {
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  /* Right logo may remain slightly bigger if desired */
   .header-logo.right {
-    height: 13vw;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   /* Center text */
   .header-content {
     position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
     text-align: center;
     margin: 0 auto;
-    padding-top: 0;
+    padding-top: 0.5rem;
   }
 
   .header-content h1,
   .header-content h2 {
-    font-size: 1.2rem;           /* smaller text for phones */
+    font-size: 1.2rem;         /* smaller text for phones */
   }
 }
