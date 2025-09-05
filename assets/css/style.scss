@@ -18,16 +18,19 @@
   width: auto;
   height: 20vw;           /* scales with viewport width */
   max-height: 250px;      /* caps growth on large screens */
+  z-index: 1;
 }
 
 .header-logo.left {
   left: 20%;
+  z-index: 1;
 }
 
 .header-logo.right {
   left: 80%;
   height: 17vw;
   max-height: 400px;
+  z-index: 1;
 }
 
 /* Center text block */
@@ -37,6 +40,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 1;
 }
 /* --- Tablet: max-width 768px --- */
 @media (max-width: 768px) {
