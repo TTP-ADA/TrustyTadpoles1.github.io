@@ -15,20 +15,23 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      <div class="header-content">
-        <img src="{{ '/assests/images/cardano-white.png' | relative_url }}" alt="Logo 1" class="header-logo left">
-
-        <h1 class="project-name">
-          {{ page.title | default: site.title | default: site.github.repository_name }}
-        </h1>
-
-        <img src="{{ '/assests/images/TrustyTadpoles.png' | relative_url }}" alt="Logo 2" class="header-logo right">
+    <!-- Header with absolute-positioned logos and centered text -->
+    <header class="page-header" role="banner" style="position: relative; height: 200px;">
+      <!-- Left logo -->
+      <img src="{{ '/assests/images/cardano-white.png' | relative_url }}" 
+           alt="Cardano Logo"
+           style="position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); height: 250px; width: auto;">
+      
+      <!-- Center text -->
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       </div>
 
-      <h2 class="project-tagline">
-        {{ page.description | default: site.description | default: site.github.project_tagline }}
-      </h2>
+      <!-- Right logo -->
+      <img src="{{ '/assests/images/TrustyTadpoles.png' | relative_url }}" 
+           alt="My Pool Logo"
+           style="position: absolute; top: 50%; left: 75%; transform: translate(-50%, -50%); height: 250px; width: auto;">
 
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
