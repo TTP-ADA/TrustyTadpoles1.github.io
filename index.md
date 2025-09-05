@@ -13,8 +13,10 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Our Pool Stats
 
 Stay up-to-date with our live pool metrics:
-
-<iframe width="500" height="320" frameborder="0" src="https://img.cexplorer.io/w/widget.html?pool=pool1r76pjed6q8k9y8lngcedqhv52zqzc2gczwzqc93x6kwq73xprtr&theme=dark"><a href="https://cexplorer.io/pool/pool1r76pjed6q8k9y8lngcedqhv52zqzc2gczwzqc93x6kwq73xprtr">pool detail on cexplorer.io</a></iframe>
+<div class="iframe-container">
+  <iframe width="500" height="320" frameborder="0" src="https://img.cexplorer.io/w/widget.html?pool=pool1r76pjed6q8k9y8lngcedqhv52zqzc2gczwzqc93x6kwq73xprtr&theme=dark"><a href="https://cexplorer.io/pool/pool1r76pjed6q8k9y8lngcedqhv52zqzc2gczwzqc93x6kwq73xprtr">pool detail on cexplorer.io</a>
+  </iframe>
+</div>
 
 # Header 1
 
