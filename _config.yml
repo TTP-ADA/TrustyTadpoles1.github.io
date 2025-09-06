@@ -3,5 +3,5 @@ description: A Cardano Stake Pool
 show_downloads: true
 theme: jekyll-theme-cayman
 
-url: "https://ttp-ada.github.io"
-baseurl: "/TrustyTadpoles1.github.io"
+url: "https://trustytadpoles.io"
+baseurl: ""
