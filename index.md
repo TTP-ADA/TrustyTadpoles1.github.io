@@ -23,7 +23,7 @@ Stay up-to-date with our live pool metrics:
 # How to Stake with Us
 
 1.  Use your browser or hardware wallet (Eternl, Lace, Daedalus, Yoroi, etc.)
-2.  Got to the **Staking** or **Delegation** tab
+2.  Go to the **Staking** or **Delegation** tab
 3.  Search our pool by ticker: **TTP** (Trusty Tadpoles Pool)
 4.  Select our pool and confirm delegation
 5.  Start earning ADA!
